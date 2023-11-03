@@ -1,0 +1,134 @@
+body{
+    background-color: #EDEFEE;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 10px
+}
+
+h2 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    width: 600px;
+}
+
+.footer-logo{
+    width: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+    height: 100px;
+    background-color: #3C3030;
+    border-radius: 30px;
+}
+
+li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgreen;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display:flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+.heading1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-image: url("../img_files/food.jpeg");
+    padding: 20px;
+    color:white;
+    border-radius: 30px;;
+}
+
+
+.heading2{
+    background-color: #E9E1D1;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.h2-1{
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.h2-2{
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.h2-3{
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.h2-4{
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.h2-img{
+    width: 300px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright{
+    text-align: right;;
+}
+
+.copyr{
+    margin-top: 10px
+}
+
+.header-p{
+    font-size: 20px;
+}
+
+.heading2 a{
+    font-weight: 600;
+    color: purple;
+}
